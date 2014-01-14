@@ -1,5 +1,6 @@
 package strategy;
 
+import strategy.behavior.quack.Squeak;
 import strategy.client.Duck;
 import strategy.client.MallardDuck;
 
@@ -12,5 +13,7 @@ public class MiniDucksSimulator {
 		duck.performQuack();
 		duck.performFly();
 		
+		duck.setQuackBehavior(new Squeak());
+		duck.performQuack();
 	}
 }
