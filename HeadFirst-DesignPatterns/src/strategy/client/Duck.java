@@ -5,8 +5,8 @@ import strategy.behavior.quack.QuackBehavior;
 
 public abstract class Duck {
 	
-	protected FlyBehavior flyBehavior;
-	protected QuackBehavior quackBehavior;
+	private FlyBehavior flyBehavior;
+	private QuackBehavior quackBehavior;
 	
 	public Duck(){}
 	
