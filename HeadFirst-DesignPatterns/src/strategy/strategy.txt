@@ -1,0 +1,2 @@
+Define uma familia de algoritimos, encapsula cada um deles e os torna intercambiaveis. 
+A estrategia deixa o algoritimo variar independente dos clientes que o utilizam.
