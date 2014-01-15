@@ -1,0 +1,2 @@
+Anexa responsabilidades adicionais a um objeto dinamicamente.
+Os decoradores fornecem uma alternativa flexivel de subclasse para estender a funcionalidade.
