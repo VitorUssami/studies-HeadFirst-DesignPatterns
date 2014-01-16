@@ -10,7 +10,8 @@ public class InputTest {
 	public static void main(String[] args) {
 		int c;
 		try{
-			String path = InputTest.class.getResource("test.txt").getPath();
+			String path = InputTest.class.getClassLoader()
+					.getResource("decorator/io/test.txt").getPath();
 			InputStream is = new LowerCaseInputStream(new BufferedInputStream(
 					new FileInputStream(path)));
 			while ((c = is.read()) >= 0) {
