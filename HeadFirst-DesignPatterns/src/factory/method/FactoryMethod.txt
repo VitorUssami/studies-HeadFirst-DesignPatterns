@@ -1,0 +1,2 @@
+Define uma interface para criar um um objeto, mas permite as classes decidir qual classe instanciar. 
+O Factory Method permite a uma classe deferir a instanciação para subclasses.
