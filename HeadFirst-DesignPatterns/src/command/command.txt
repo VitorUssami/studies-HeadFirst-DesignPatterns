@@ -1,0 +1,2 @@
+Encapsula uma solicitação como um objeto, o que lhe permite parametrizar outros objetos com diferentes solicitações,
+ enfileirar  ou registrar solicitações e implementar recursos de cancelamento de operações. 
