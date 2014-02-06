@@ -1,0 +1,2 @@
+Define o esqueleto de uma algoritimo dentro de um metodo, transferindo alguns de seus passos para as subclasses.
+O Template Method permite que as subclasses redefinam certos passos de um algoritimo sem alterar a estrutura do proprio algoritimo. 
