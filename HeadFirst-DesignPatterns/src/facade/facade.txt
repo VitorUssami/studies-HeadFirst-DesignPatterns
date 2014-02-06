@@ -1,0 +1,2 @@
+Fornece uma interface unificada para um conjunto de interfaces em um subsistema. 
+A fachada define uma interface de nivel mais alto que facilita a utilização do subsistema.
