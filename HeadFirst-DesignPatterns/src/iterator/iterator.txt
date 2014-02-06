@@ -1,0 +1,1 @@
+Fornece uma maneira de acessar sequencialmente os elementos de um objeto agregado sem expor a sua representacao subjacente.

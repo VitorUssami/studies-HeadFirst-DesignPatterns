@@ -1,0 +1,2 @@
+Permite que voce componha objetos em estruturas de arvore para representar hierarquias parte-todo.
+Com esse padrao, os clientes podem trata objetos individuais ou composições de objetos de maneira uniforme.
