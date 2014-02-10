@@ -3,6 +3,7 @@ package observer.v1;
 import java.util.Observable;
 import java.util.Observer;
 
+@SuppressWarnings("unused")
 public class ForecastDisplay implements Observer, DisplayElement {
 
 	private float temperature;

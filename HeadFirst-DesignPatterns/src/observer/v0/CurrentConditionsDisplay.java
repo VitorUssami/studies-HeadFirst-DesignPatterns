@@ -1,5 +1,6 @@
 package observer.v0;
 
+@SuppressWarnings("unused")
 public class CurrentConditionsDisplay implements Observer, DisplayElement {
 
 	private float temperature;

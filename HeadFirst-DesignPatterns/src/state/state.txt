@@ -1,0 +1,2 @@
+Permite que um objeto altere o seu comportamento quando o seu estado interno muda.
+O objeto parecera ter mudado de classe.
