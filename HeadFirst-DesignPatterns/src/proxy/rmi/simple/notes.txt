@@ -1,0 +1,10 @@
+
+MyRemoteImpl_Stub.java é gerado com o comando rmic -keep proxy.rmi.MyRemoteImpl
+	-keep -> mantem o source
+	
+	
+comando 'rmiregistry' não funciona quando executado através do Runtime.
+	substitui pelo comando 'LocateRegistry.createRegistry(1099);' 
+	pesquisar mais sobre 'rmiregistry'
+	
+Os objetos que sao retornados pelos metodos dvem ser serializados.

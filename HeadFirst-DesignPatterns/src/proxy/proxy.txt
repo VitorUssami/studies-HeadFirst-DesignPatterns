@@ -1,0 +1,57 @@
+Fornece um subtituto ou representante de outro objeto para controlar o acesso a ele.
+
+
+
+Proxy Remoto
+Com o proxy remoto, o proxy age como o representante local de um objeto que reside em outra JVM.
+Uma chamada de metodo recebida pelo proxy é transferida através da rede, processada remotamente, e 
+o ersultado é retornado via rede ao proxy e deste para o cliente.
+
+
+Proxy Virtual
+O proxy virtual atua como um representante de um objeto cuja criação pode ser onerosa.
+O proxy virtual geralmente retarda a criação desse objeto até que ela seja realmente necessária; além disso
+ele age como um substituto do objeto antes e durante a sua criação.
+Depois disso, o proxy delega as solicitações diretamente ao ObjetoReal.
+
+
+Proxy de proteção
+Controla seletivamente o acesso aos metodos de um objeto com base na origem da chamada.
+
+
+
+*****************************************
+Zoo de Proxies
+*****************************************
+
+Proxy de Firewall
+Controla o acesso a um conjunto de recursos de uma rede, protegendo o objeto de destino contra os clientes "nocivos"
+	- habitat: sistemas de firewall comerciais
+	
+	
+Proxy de Referencia Inteligente
+Fornece ações adicionais quando um objeto é referenciado - por exemplo, contar o numero de referencias a um objeto.
+	-habitat: 'desconhecido' //TODO procurar
+	
+	
+Proxy de cache
+Fornece amamazenagem temporaria para os resultados de operações onerosas. Tambem pode permitir que
+multiplos clientes compartilhem os resultados, para reduzir o processamento ou latencia da rede.
+	-habitat: servidores web, sistemas de gerenciamento de contrudo e publicacao de dados.
+	
+
+Proxy de Sincronização
+Proporciona acesso seguro a um objeto a partir de multiplos processos em execução
+	-habitat: JavaSpaces, onde controla o acesso sincrono a um conjunto subjacente de objetos dentro de um ambiente distribuido.	
+	
+	
+Proxy de ocultação da complexidade
+Oculta a complexidade e controla o acessoa a um conjunto de classes. Tambem conhecido como Facade Proxy,
+por razões obvias. A diferença entro o 'Proxy de ocultação da complexidade' e o padrão Facade está no fato de que o proxy
+controla o acesso, ao passo que a Facade apenas fornece uma interface alternativa.
+	-habitat: 'desconhecido' //TODO procurar	
+	
+	
+Proxy de Cópia-sobre-Gravação
+Controla a cópia de um objeto, retardando-a até que seja exigida por um cliente. É uma variante do Proxy Virtual.		
+	-habitat: java.util.concurrent.CopyOnWriteArrayList, java 5	
