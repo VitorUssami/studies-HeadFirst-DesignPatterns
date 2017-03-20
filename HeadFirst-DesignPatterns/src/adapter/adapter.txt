@@ -1,2 +1,2 @@
 Converte a interface de uma classe para outra interface que o cliente espera encontrar.
-O adaptador permite que classes com interfaces incompativeis trabalhem juntas. 
+O adaptador permite que classes com interfaces incompativeis trabalhem juntas.
